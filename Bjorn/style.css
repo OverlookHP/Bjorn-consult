@@ -1,9 +1,226 @@
-/*
-Theme Name: Bjorn Consult
-Text Domain: Bjorn Consult 
-Version: 1.0 
-Description: Nyt Design for Bjorn Cosult, som gør det let at tilføje og ændre i blog posts
-Tags: Bjorn Consult, New Design, Responsive
-Author: Gruppe 16 
-*/ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+/* resetter margin, patting osv.*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* global styling */
+
+.max-width{
+    max-width: 1500px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    background: white;
+      z-index: 2;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.menu-btn:hover{
+    color: green;
+}
+
+.menu-btn {
+  color: black;
+}
+
+.menuknap {
+border-radius: 18px;
+background-color: green;
+border: none;
+color: white;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+.menuknap:hover{
+    background-color: darkgreen;
+}
+
+
+
+/* hjem section styling */
+.hjem{
+    display: flex;
+    background: url("hero.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+.hjem .max-width{
+    margin: auto 0 auto 30px;
+}
+
+.hjem .hjem-indhold .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.hjem .hjem-indhold .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+
+
+/*textvideo start*/
+
+
+video {
+  width: 80%;
+  height: 80%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 220px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.grid-itemvideo {
+  text-align: center;
+
+}
+
+.vidtextcontainer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/*blogforside start*/
+.forsideblog {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: lightgrey;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mest_nylige_opslag {
+  float: left;
+  padding-left: 220px;
+  margin-top: 100px;
+  font-size: 20px;
+}
+.se_alle_opslag {
+  text-align: right;
+  padding-right: 220px;
+  color: green;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+hr.new4 {
+  border: 1px solid grey;
+  margin-left: 220px;
+  margin-right: 220px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  justify-content: center;
+}
+.grid-item2 {
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  width: 350px;
+  height: 375px;
+}
+
+.container6 {
+    text-align: left;
+}
+
+.container6 p {
+    font-size: 15px;
+}
+
+.blogsektiontekst {
+  text-align: center;
+}
+
+
+.logoerforsideoverskrift {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.grid-item3 {
+  padding: 20px;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.grid-item4 {
+  padding: 20px;
+}
+
+.logoerforsidekundeudsagn {
+
+}
+
+.logoerforsidekundeudsagnperson {
+  font-size: 12px;
+}
