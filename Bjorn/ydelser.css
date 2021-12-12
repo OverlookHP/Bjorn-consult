@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.sektion1 {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 50vh 50vh;
+    height: 50vh;
+    background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 100%);
+
+  }
+
+.sektion2 {
+  background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 100%);
+}
+
+.ydelser1 {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 50vh 50vh;
+  height: 50vh;
+}
+
+.ydelser-item1left {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-align: center;
+    margin-left: 220px;
+}
+
+.ydelser-item1right {
+  margin-right: 220px;
+}
+
+
+.ydelser2 {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 50vh 50vh;
+  height: 50vh;
+}
+.ydelser-item2right {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-align: center;
+    margin-right: 220px;
+}
+
+.ydelser-item2left {
+  margin-left: 220px;
+}
+
+.sektion3 {
+  background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 100%);
+}
+
+.ydelser3 {
+
+  display: grid;
+  place-items: center;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 50vh 50vh;
+  height: 50vh;
+}
+
+.ydelser-item3left {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-align: center;
+    margin-left: 220px;
+}
+
+.ydelser-item3right {
+  margin-right: 220px;
+}
+
+.ydelser4 {
+
+  display: grid;
+  place-items: center;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 50vh 50vh;
+  height: 50vh;
+}
+.ydelser-item4right {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-align: center;
+    margin-right: 220px;
+}
+
+.ydelser-item4left {
+  margin-left: 220px;
+}
+
+.footer2 {
+background-color: #293732;
+}
+
+.footer {
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  text-align: center;
+  padding-top: 10vh;
+  grid-template-columns: 33% 33% 33%;
+  padding-left: 220px;
+  padding-right: 220px;
+  height: 50vh;
+  padding-bottom: 20vh;
+}
+
+
+.linje1 {
+  color: white;
+}
+
+.linje2 {
+  color: white;
+}
+
+.linje3 {
+  color: white;
+}
