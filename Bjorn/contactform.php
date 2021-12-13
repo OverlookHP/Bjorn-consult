@@ -1,17 +1,17 @@
 <?php
 
 if (isset($_POST['submit'])) {
-  $name = $_POST['name'];
-  $mailFrom = $_POST['mail'];
-  $subject = $_POST['subject'];
-  $message = $_POST['message'];
+  $Navn = $_POST['Navn'];
+  $EmailFrom = $_POST['Email'];
+  $Tlf = $_POST['Telefon Nr'];
+  $Besked = $_POST['Besked'];
 
-  $mailTo = "jonas98@live.dk";
+  $EmailTo = "jonas@inessenceofcones.com";
   $headers = "From: ".$mailFrom;
-  $txt = "Do har modtaget en mail fra ".$name.".\n\n".$message;
+  $txt = "Do har modtaget en mail fra ".$name.".\n\n".$Besked;
 
-  mail($mailTo, $subject, $txt, $headers);
-  header("Location: index.php?mailsend");
+  mail($EmailTo, $Tlf, $txt, $headers);
+  header("Location: kontaktpage.php?mailsend");
 }
 
  ?>
