@@ -16,6 +16,8 @@ html{
 
   --fs-h1: 45px;
   --fs-h2: 25px;
+  --fs-h3: 75px;
+  --fs-h4: 40px;
   --fs-body: 16px;
 
   /* Mobile Font size */
@@ -36,6 +38,15 @@ h2{
   font-size: var(--fs-h2);
 }
 
+@media (max-width: 800px) {
+  :root{
+    --fs-h1: 35px;
+    --fs-h2: 15px;
+    --fs-h3: 50px;
+    --fs-h4: 20px;
+    --fs-body: 10px;
+  }
+}
 /* global styling */
 
 .max-width{
@@ -121,12 +132,12 @@ cursor: pointer;
 }
 
 .hjem .hjem-indhold .text-2{
-    font-size: 75px;
+  font-size: var(--fs-h3);
     font-weight: 600;
     margin-left: -3px;
 }
 .hjem .hjem-indhold .text-3{
-    font-size: 40px;
+  font-size: var(--fs-h4);
     margin: 5px 0;
 }
 
@@ -193,7 +204,6 @@ hr.new4 {
 
 .grid-container2 {
   display: grid;
-  grid-template-columns: auto auto auto;
   padding: 10px;
   justify-content: center;
 }
@@ -217,7 +227,11 @@ hr.new4 {
   text-align: center;
 }
 
-
+@media (min-width: 1045px){
+.grid-container2{
+  grid-template-columns: auto auto auto;
+}
+}
 
 
 /*logoer forside start*/
@@ -252,7 +266,14 @@ hr.new4 {
   padding: 20px;
 }
 
-
+.grid-item3 img {
+  width: 150px;
+  height: 150px;
+}
+.grid-item4 img {
+  width: 150px;
+  height: 150px;
+}
 
 .logoerforsidekundeudsagnperson {
   font-size: 12px;
