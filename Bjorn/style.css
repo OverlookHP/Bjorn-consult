@@ -17,11 +17,23 @@ html{
   --fs-h1: 45px;
   --fs-h2: 25px;
   --fs-body: 16px;
+
+  /* Mobile Font size */
+
 }
 
 body{
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
+}
+
+h1{
+  font-family: var(--ff-primary);
+  font-size: var(--fs-h1);
+}
+h2{
+  font-family: var(--ff-primary);
+  font-size: var(--fs-h2);
 }
 
 /* global styling */
@@ -256,10 +268,6 @@ hr.new4 {
 .hero-ydelser {
   padding-top: 100px;
 }
-
-
-
-
 
 
 .head{
