@@ -189,13 +189,11 @@ video {
 
 .mest_nylige_opslag {
   float: left;
-  padding-left: 220px;
   margin-top: 100px;
   font-size: 20px;
 }
 .se_alle_opslag {
   text-align: right;
-  padding-right: 220px;
   color: green;
   cursor: pointer;
   margin-top: 100px;
@@ -203,9 +201,27 @@ video {
 
 hr.new4 {
   border: 1px solid grey;
-  margin-left: 220px;
-  margin-right: 220px;
+ width: 1000px;
+  margin: auto;
 }
+
+.blogsektiontekst{
+  width: 1000px;
+  align-items: center;
+  margin: auto;
+}
+@media (max-width: 1045px){
+  hr.new4 {
+   width: 350px;
+    margin: auto;
+  }
+  .blogsektiontekst{
+    width: 350px;
+
+
+  }
+}
+
 
 .grid-container2 {
   display: grid;
