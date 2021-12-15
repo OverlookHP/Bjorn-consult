@@ -125,12 +125,25 @@ background-color: #293732;
 
 .linje1 {
   color: white;
+  text-align: left;
+}
+
+.linje2 a{
+  color: white;
+  text-align: left;
 }
 
 .linje2 {
   color: white;
 }
 
-.linje3 {
+
+
+.linje3{
   color: white;
+}
+
+.linje3 a{
+  color: white;
+  text-align: left;
 }

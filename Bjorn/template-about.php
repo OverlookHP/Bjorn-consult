@@ -1,12 +1,12 @@
-<?php
+<?php 
 /* Template Name: About */
 get_header();
-?>
+?> 
 
 <body>
 
   <div class="hero-om-os">
-      <img src="verden.png" alt="BjornConsult" width="100vw" height="200vh">
+      <img src="<?php bloginfo('template_directory');?>./assets/img/verden.png" alt="BjornConsult" width="100vw" height="200vh">
   </div>
 
 
@@ -22,7 +22,7 @@ Med en bredere forståelse og indsigt i bæredygtighed på tværs af mærkningso
         </div>
 
     <div class="om-item1right">
-      <img src="verden.png" alt="BjornConsult" width="300" height="300">
+      <img src="<?php bloginfo('template_directory');?>./assets/img/Eirik.png" alt="BjornConsult" width="300" height="300">
     </div>
 
 </div>
@@ -40,7 +40,8 @@ Med en bredere forståelse og indsigt i bæredygtighed på tværs af mærkningso
  <p>10 Års erfaring som innovationsleder</p>
 </div>
 <div class="zigzag3">
-  <p>17 års erfaring som udvikler for revolutionære projekter<img src="<?php bloginfo('template_directory');?>./assets/img/omos2.png" alt="BjornConsult" width="100" height="100"
+
+  <p>17 års erfaring som udvikler for revolutionære projekter <img src="<?php bloginfo('template_directory');?>./assets/img/omos2.png" alt="BjornConsult" width="100" height="100"
 </p>
 </div>
 <div class="zigzag4">
@@ -48,7 +49,7 @@ Med en bredere forståelse og indsigt i bæredygtighed på tværs af mærkningso
   <p>24 års erfaring som produktudvikler</p>
 </div>
 <div class="zigzag5">
-  <p>24 års erfaring som produktudvikler<img src="<?php bloginfo('template_directory');?>./assets/img/omos4.png" alt="BjornConsult" width="100" height="100"
+  <p>27 års kravsætning af produkter <img src="<?php bloginfo('template_directory');?>./assets/img/omos4.png" alt="BjornConsult" width="100" height="100"
 </p>
 </div>
 
@@ -58,4 +59,4 @@ Med en bredere forståelse og indsigt i bæredygtighed på tværs af mærkningso
 </body>
 
 
-<?php get_footer(); ?>
+<?php get_footer(); ?> 

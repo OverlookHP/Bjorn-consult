@@ -26,7 +26,7 @@
     ?>
 
 
-    <?php
+<?php
         // lav inspect på elementerne på siden også lav classes til dem i style.css for at ændre udsende 
         the_posts_pagination();
 

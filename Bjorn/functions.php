@@ -22,16 +22,16 @@ register_nav_menus(
 
 
 
-function bjorn_menus(){
+// function bjorn_menus(){
 
-    $locations = array(
-        'primary' => "Desktop Primary Top Menu",
-        'footer' => "Footer Menu"
-    );
-    register_nav_menus($locations);
-}
+//     $locations = array(
+//         'primary' => "Desktop Primary Top Menu",
+//         'footer' => "Footer Menu"
+//     );
+//     register_nav_menus($locations);
+// }
 
-add_action('init','bjorn_menus');
+// add_action('init','bjorn_menus');
 
 
 
@@ -43,7 +43,7 @@ function bjorn_register_styles(){
     wp_enqueue_style('bjorn-ydelser', get_template_directory_uri(). "/ydelser.css", array('bjorn-bootstrap'), $version, 'all');
     wp_enqueue_style('bjorn-om-os', get_template_directory_uri(). "/Om-os.css", array('bjorn-bootstrap'), $version, 'all');
     wp_enqueue_style('bjorn-bootstrap', get_template_directory_uri(). "https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css", array(), '4.6.1', 'all');
-    wp_enqueue_style('bjorn-fontawesome', get_template_directory_uri(). "LINK HER TIL FONTAWESOME", array(), '1.0', 'all');
+    wp_enqueue_style('bjorn-Unicorns', get_template_directory_uri(). "https://unicons.iconscout.com/release/v4.0.0/css/line.css", array(), '1.0', 'all');
 
 }
     add_action('wp_enqueue_scripts','bjorn_register_styles');

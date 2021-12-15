@@ -15,7 +15,7 @@
 <nav class="navbar">
         <div class="max-width"> 
             <div class="logo">
-<a href="#"><img src="<?php bloginfo('template_directory');?>./assets/img/BjornConsultLogo.png" alt="BjornConsult" width=120wh height=40wh></a></div>
+<a href="http://localhost/wordpress/"><img src="<?php bloginfo('template_directory');?>./assets/img/BjornConsultLogo.png" alt="BjornConsult" width=120wh height=40wh></a></div>
 <ul class="menu">
 
 <?php 
@@ -57,15 +57,15 @@
     }
 
 
-    wp_nav_menu(
-        array(
-            'menu' => 'primary',
-            'container' => '',
-            'theme_location' => 'primary'
-            // brug den id og class som der bruges i html her under. SKAL OGSÅ TILFØJES INDE I WP 
-            // 'items_wrap' => '<ul id="" class="">%3$s</ul>'
-        )
-    );
+    // wp_nav_menu(
+    //     array(
+    //         'menu' => 'primary',
+    //         'container' => '',
+    //         'theme_location' => 'primary'
+    //         // brug den id og class som der bruges i html her under. SKAL OGSÅ TILFØJES INDE I WP 
+    //         // 'items_wrap' => '<ul id="" class="">%3$s</ul>'
+    //     )
+    // );
 
 ?>
 

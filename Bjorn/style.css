@@ -58,7 +58,13 @@ body{
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
+    color: black;
 }
+
+.navbar .menu li a:hover{
+  color: green;
+}
+
 .menu-btn:hover{
     color: green;
 }
@@ -148,7 +154,7 @@ video {
 /*blogforside start*/
 .forsideblog {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 100%);
   font-family: 'Poppins', sans-serif;
 }
@@ -234,15 +240,28 @@ hr.new4 {
   padding: 20px;
 }
 
-.logoerforsidekundeudsagn {
 
-}
 
 .logoerforsidekundeudsagnperson {
   font-size: 12px;
 }
 
+.udsagn-section{
+  margin-bottom: 40px;
+}
+
 /* heading på pages */
+
+.hero-om-os,
+.hero-ydelser {
+  padding-top: 100px;
+}
+
+
+
+
+
+
 .head{
   padding-top: 86px;
     display: flex;
@@ -291,16 +310,15 @@ hr.new4 {
   padding-right: 10vw;
 }
 
-.myimgcontainer{
-  width: 450px;
-  height: 450px;
+.blog-text{
+  padding-right: 17vw;
+  padding-left: 17vw;
 }
 
-.myimg{
-  width: 100%;
-  height: 450px;
-  object-fit: cover;
+.blog-text ul {
+  padding-left: 1.2vw;
 }
+
 
 /*blogpost page */
 .myimgcontainer2{
@@ -317,6 +335,19 @@ hr.new4 {
   background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 100%);
 }
 
+
+
+.myimgcontainer{
+  width: 450px;
+  height: 450px;
+}
+
+.myimg{
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
 /*fonts */
 h2{
   font-family: var(--ff-primary);
@@ -325,6 +356,13 @@ h2{
 
 .blogpostf{
   background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 100%);
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+
+.blogpostff{
+  padding-top: 100px;
 }
 /* */
 /*kontakt side*/

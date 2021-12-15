@@ -13,7 +13,7 @@
             <div class="hjem-indhold">
   <div class="text-2">From Mind to Market</div>
   <div class="text-3">Healthy Sustainability for all</div>
-  <a href="#" class="menuknap">Kontakt</a>
+  <a href="mailto: info@bjoernconsult.dk" class="menuknap">Kontakt</a>
             </div>
         </div>
   </section>
@@ -36,40 +36,43 @@
 </div>
 
         <!-- forside blog start -->
-          <div class="forsideblog">
+                <div class="forsideblog">
 
-          <div class="blogsektiontekst"><h1>Hold dig opdateret</h1>
+        <div class="blogsektiontekst"><h1>Hold dig opdateret</h1>
 
-            <div class="mest_nylige_opslag"><p>Mest nylige opslag</p>
-            </div>
-            <div class="se_alle_opslag"><p>Se Alle Opslag ></p>
-            </div>
+          <div class="mest_nylige_opslag"><p>Mest nylige opslag</p>
           </div>
-          <br>
-          <hr class="new4">
+          <div class="se_alle_opslag"><p>Se Alle Opslag ></p>
+          </div>
+        </div>
+        <br>
+        <hr class="new4">
         <div class="grid-container2">
 
           <div class="grid-item2">
-            <img src="<?php bloginfo('template_directory');?>./assets/img/Stock.jpeg" alt="Avatar" width="300" height="250">
+            <a href="http://localhost/wordpress/?page_id=41"><img src="<?php bloginfo('template_directory');?>./assets/img/blogpic1.jpg" alt="Avatar" width="300" height="250"></a>
           <div class="container6">
-          <h4><b>overskrift</b></h4>
-          <p>brødtekst</p>
+          <h6>Omsæt bæredygtighed til vækst</h6>
+          <p>Det kræver i dag langt mere end traditionelle værktøjer for at få succes med nye innovative produkter.
+              90% af al den viden der er genereret i dag er skabt indenfor de seneste 2 år. </p>
           </div>
           </div>
 
           <div class="grid-item2">
-            <img src="<?php bloginfo('template_directory');?>./assets/img/Stock.jpeg" alt="Avatar" width="300" height="250">
+            <a href="http://localhost/wordpress/?page_id=44"><img src="<?php bloginfo('template_directory');?>./assets/img/Stock.jpeg" alt="Avatar" width="300" height="250"></a>
           <div class="container6">
-          <h4><b>overskrift</b></h4>
-          <p>brødtekst</p>
+          <h6><b>Verden efter Corona</b></h6>
+          <p>Der er ingen tvivl om at Corona pandemien har taget alle på sengekanten.
+              Den er kommet over de fleste som lyn fra en klar himmel, men hvad sker der så efterfølgende.</p>
           </div>
           </div>
 
           <div class="grid-item2">
-            <img src="<?php bloginfo('template_directory');?>./assets/img/Stock.jpeg" alt="Avatar" width="300" height="250">
+          <a href="http://localhost/wordpress/?page_id=44"><img src="<?php bloginfo('template_directory');?>./assets/img/Stock.jpeg" alt="Avatar" width="300" height="250"></a>
           <div class="container6">
-          <h4><b>overskrift</b></h4>
-          <p>brødtekst</p>
+          <h6><b>Verden efter Corona</b></h6>
+          <p>Der er ingen tvivl om at Corona pandemien har taget alle på sengekanten.
+              Den er kommet over de fleste som lyn fra en klar himmel, men hvad sker der så efterfølgende.</p>
           </div>
           </div>
 
@@ -122,11 +125,14 @@
 
                 </div>
 
-                <div class="logoerforsidekundeudsagn"><p>"Indsæt quote fra kunde"</p>
-                  </div>
-                  <br>
-                <div class="logoerforsidekundeudsagnperson"><p>- Tine rasmussen, CEO, Pepsi</p>
+
+                <div class="udsagn-section">
+                  <div class="logoerforsidekundeudsagn"><p>"Indsæt quote fra kunde"</p>
                     </div>
+                    <br>
+                  <div class="logoerforsidekundeudsagnperson"><p>- Tine rasmussen, CEO, Pepsi</p>
+                      </div>
+                </div>
 
 </body>
 <!-- Indsæt HTML her for forsiden --> 
