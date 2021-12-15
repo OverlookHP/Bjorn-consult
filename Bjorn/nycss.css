@@ -1,3 +1,27 @@
+
+
+/* Hero */
+.hjem .hjem-indhold .text-2{
+  font-size: var(--fs-h3);
+    font-weight: 600;
+    margin-left: -3px;
+}
+.hjem .hjem-indhold .text-3{
+  font-size: var(--fs-h4);
+    margin: 5px 0;
+}
+
+/* Blog posts */
+
+/*Husk at slette grid template fra nuværende grid container 2*/
+
+@media (min-width: 1045px){
+.grid-container2{
+  grid-template-columns: auto auto auto;
+}
+}
+
+/* Logoer */
 .grid-item3 img {
   width: 150px;
   height: 150px;
