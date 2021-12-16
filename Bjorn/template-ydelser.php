@@ -3,11 +3,17 @@
 get_header();
 ?>  
 
+<section class="head" id="head">
+        <div class="max-width">
+            <div class="head-indhold">
+  <div class="title">Ydelser</div>
+            </div>
+        </div>
+  </section>
+
 <body>
 
-<div class="hero-ydelser">
-    <img src="<?php bloginfo('template_directory');?>./assets/img/verden.png" alt="BjornConsult" width="100vw" height="200vh">
-</div>
+
 
 <div class="sektion1">
   <div class="ydelser-item1left">
@@ -53,7 +59,7 @@ bæredygtige projekter i mål.
 
   <div class="ydelser1">
     
-      <div class="<?php bloginfo('template_directory');?>./assets/img/ydelser-item1left">
+      <div class="ydelser-item1left">
           <h1>Bæredygtige Valg</h1>
           <br>
           <p>BJØRN consult kan bl.a. hjælpe med følgende:

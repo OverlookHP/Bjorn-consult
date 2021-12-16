@@ -1,90 +1,90 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 html{
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .sektiontop {
-    display: grid;
-    place-items: center;
-    grid-template-columns: 50vw 50vw;
-    grid-template-rows: 80vh 80vh;
-    height: 80vh;
-    background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 100%);
+  display: grid;
+  place-items: center;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 80vh 80vh;
+  height: 80vh;
+  background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 100%);
 
-  }
+}
 
 .om-item1left {
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-    margin-left: 220px;
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+  margin-left: 220px;
 }
 
 .om-item1right {
-  margin-right: 220px;
+margin-right: 220px;
 }
 
 .midtext {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  width: 25vw;
-  margin: auto;
+padding-top: 10vh;
+padding-bottom: 10vh;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+width: 25vw;
+margin: auto;
 }
 
 .zigzag {
-    background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 100%);
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    margin-bottom: 10vh;
+  background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 100%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin-bottom: 10vh;
 }
 
 #main1 {
-  padding-bottom: 5vh;
-  margin: auto;
-  width: 60%;
-  height: auto;
-  display: flex;
-  justify-content: left;
+padding-bottom: 5vh;
+margin: auto;
+width: 60%;
+height: auto;
+display: flex;
+justify-content: left;
 }
 
 #text1 div {
-  width: auto;
-  height: 10px;
-  padding: 40px 0;
+width: auto;
+height: 10px;
+padding: 40px 0;
 }
 
 #billede1 div {
-  padding: 0 0;
+padding: 0 0;
 }
 
 
 
 #main2 {
-  padding-bottom: 5vh;
-  margin: auto;
-  width: 60%;
-  height: auto;
-  display: flex;
-  justify-content: right;
+padding-bottom: 5vh;
+margin: auto;
+width: 60%;
+height: auto;
+display: flex;
+justify-content: right;
 }
 
 #text2 div {
-  width: auto;
-  height: 10px;
-  padding: 40px 0;
+width: auto;
+height: 10px;
+padding: 40px 0;
 
 }
 
 #billede2 div {
-  padding: 0 0;
+padding: 0 0;
 
 }
 
@@ -93,95 +93,93 @@ html{
 
 
 #main3 {
-  padding-bottom: 5vh;
-  margin: auto;
-  width: 60%;
-  height: auto;
-  display: flex;
-  justify-content: left;
+padding-bottom: 5vh;
+margin: auto;
+width: 60%;
+height: auto;
+display: flex;
+justify-content: left;
 }
 
 #text3 div {
-  width: auto;
-  height: 10px;
-  padding: 40px 0;
+width: auto;
+height: 10px;
+padding: 40px 0;
 }
 
 #billede3 div {
-  padding: 0 0;
+padding: 0 0;
 }
 
 
 
 #main4 {
-  padding-bottom: 5vh;
-  margin: auto;
-  width: 60%;
-  height: auto;
-  display: flex;
-  justify-content: right;
+padding-bottom: 5vh;
+margin: auto;
+width: 60%;
+height: auto;
+display: flex;
+justify-content: right;
 }
 
 #text4 div {
-  width: auto;
-  height: 10px;
-  padding: 40px 0;
+width: auto;
+height: 10px;
+padding: 40px 0;
 
 }
 
 #billede4 div {
-  padding: 0 0;
+padding: 0 0;
 
 }
 
 
 
 @media only screen and (max-width: 1150px) {
-  body {
 
-  }
-  .sektiontop {
-    height: auto;
-    display: grid;
-    grid-template-columns: 100vw;
-    grid-template-rows: auto auto;
-    text-align: center;
-        place-items: center;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+.sektiontop {
+  height: auto;
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: auto auto;
+  text-align: center;
+      place-items: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 
-  }
-  .om-item1right {
-    margin: auto;
-    margin-top: 5vh;
-  }
-  .om-item1left {
-    margin-left: 20vw;
-    margin-right: 20vw;
-  }
-  .midtext {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    text-align: center;
-    font-size: 18px;
-    width: 55vw;
+}
+.om-item1right {
+  margin: auto;
+  margin-top: 5vh;
+}
+.om-item1left {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+.midtext {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  text-align: center;
+  font-size: 18px;
+  width: 55vw;
 
-  }
+}
 
-  #text1 div {
-    margin-bottom: 10vh;
-  }
+#text1 div {
+  margin-bottom: 10vh;
+}
 
-  #text2 div {
-    margin-bottom: 10vh;
-  }
+#text2 div {
+  margin-bottom: 10vh;
+}
 
-  #text3 div {
-    margin-bottom: 10vh;
-  }
+#text3 div {
+  margin-bottom: 10vh;
+}
 
-  #text4 div {
-    margin-bottom: 10vh;
-  }
+#text4 div {
+  margin-bottom: 10vh;
+}
 
 }

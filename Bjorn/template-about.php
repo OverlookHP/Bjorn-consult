@@ -6,7 +6,7 @@ get_header();
 <body>
 
   <div class="hero-om-os">
-      <img src="verden.png" alt="BjornConsult" width="100vw" height="200vh">
+      <img src="<?php bloginfo('template_directory');?>./assets/img/verden.png" alt="BjornConsult" width="100vw" height="200vh">
   </div>
 
 
@@ -22,7 +22,7 @@ Med en bredere forståelse og indsigt i bæredygtighed på tværs af mærkningso
         </div>
 
     <div class="om-item1right">
-      <img src="verden.png" alt="BjornConsult" width="300" height="300">
+      <img src="<?php bloginfo('template_directory');?>./assets/img/Eirik.png" alt="BjornConsult" width="300" height="300">
     </div>
 
 </div>
@@ -42,8 +42,8 @@ Med en bredere forståelse og indsigt i bæredygtighed på tværs af mærkningso
   <div id="text1">
 	<div >10 Års erfaring som innovationsleder</div>
   </div>
+  
 </div>
-
 
 <div id="main2">
   <div id="text2">
@@ -72,6 +72,7 @@ Med en bredere forståelse og indsigt i bæredygtighed på tværs af mærkningso
   <div id="billede4">
 	<div ><img src="<?php bloginfo('template_directory');?>./assets/img/omos4.png" alt="BjornConsult" width="100" height="100" ></div>
   </div>
+
 
 </div>
 </div>
