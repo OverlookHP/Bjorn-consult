@@ -21,7 +21,7 @@ register_nav_menus(
 //Responsiv menu;
 function twentysixteen_child_responsive_menu() {
   register_nav_menu('primary-res-navigation', __
-                   ('Responsive Navigation',
+                   ('Tutorial Responsive Navigation',
                    'twentysixteen_child' ));
 
   } add_action('after_setup_theme', 'twentysixteen_child_responsive_menu');
