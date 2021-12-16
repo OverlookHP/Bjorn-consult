@@ -22,10 +22,10 @@
     <!-- text video start -->
 
 <div class="vidtextcontainer">
-  
+
   <div class="grid-container">
     <div class="grid-item">
-        <h1>Overskrift</h1>
+        <h2>Overskrift</h2>
         <br>
         <p>brodtekst</p>
         <br>
@@ -38,7 +38,7 @@
         <!-- forside blog start -->
                 <div class="forsideblog">
 
-        <div class="blogsektiontekst"><h1>Hold dig opdateret</h1>
+        <div class="blogsektiontekst"><h2>Hold dig opdateret</h2>
 
           <div class="mest_nylige_opslag"><p>Mest nylige opslag</p>
           </div>
@@ -52,7 +52,7 @@
           <div class="grid-item2">
             <a href="http://localhost/wordpress/?page_id=41"><img src="<?php bloginfo('template_directory');?>./assets/img/blogpic1.jpg" alt="Avatar" width="300" height="250"></a>
           <div class="container6">
-          <h6>Omsæt bæredygtighed til vækst</h6>
+          <h2>Omsæt bæredygtighed til vækst</h2>
           <p>Det kræver i dag langt mere end traditionelle værktøjer for at få succes med nye innovative produkter.
               90% af al den viden der er genereret i dag er skabt indenfor de seneste 2 år. </p>
           </div>
@@ -61,7 +61,7 @@
           <div class="grid-item2">
             <a href="http://localhost/wordpress/?page_id=44"><img src="<?php bloginfo('template_directory');?>./assets/img/Stock.jpeg" alt="Avatar" width="300" height="250"></a>
           <div class="container6">
-          <h6><b>Verden efter Corona</b></h6>
+          <h2><b>Verden efter Corona</b></h2>
           <p>Der er ingen tvivl om at Corona pandemien har taget alle på sengekanten.
               Den er kommet over de fleste som lyn fra en klar himmel, men hvad sker der så efterfølgende.</p>
           </div>
@@ -70,7 +70,7 @@
           <div class="grid-item2">
           <a href="http://localhost/wordpress/?page_id=44"><img src="<?php bloginfo('template_directory');?>./assets/img/Stock.jpeg" alt="Avatar" width="300" height="250"></a>
           <div class="container6">
-          <h6><b>Verden efter Corona</b></h6>
+          <h2><b>Verden efter Corona</b></h2>
           <p>Der er ingen tvivl om at Corona pandemien har taget alle på sengekanten.
               Den er kommet over de fleste som lyn fra en klar himmel, men hvad sker der så efterfølgende.</p>
           </div>
@@ -83,7 +83,7 @@
 
         <!-- Logoer forside start -->
 
-          <div class="logoerforsideoverskrift"><h1>Virksomheder vi har hjulpet</h1
+          <div class="logoerforsideoverskrift"><h2>Virksomheder vi har hjulpet</h2>
             </div>
 
 
@@ -135,7 +135,7 @@
                 </div>
 
 </body>
-<!-- Indsæt HTML her for forsiden --> 
+<!-- Indsæt HTML her for forsiden -->
 
     <?php
         if ( have_posts() ){
@@ -145,7 +145,7 @@
                 the_post();
                 the_content();
             }
-            
+
         }
 
 
@@ -155,9 +155,7 @@
 <!-- Inde i footer.php ligger der slut tags til body og html så de behøver ikke være herinde -->
 
 <?php
-    
+
     get_footer();
 
 ?>
-
-

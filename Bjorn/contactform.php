@@ -6,8 +6,8 @@ if (isset($_POST['submit'])) {
   $Tlf = $_POST['Telefon Nr'];
   $Besked = $_POST['Besked'];
 
-  $EmailTo = "jonas@inessenceofcones.com";
-  $headers = "From: ".$mailFrom;
+  //$EmailTo = "jonas@inessenceofcones.com";
+  $headers = "Fra: ".$mailFrom;
   $txt = "Do har modtaget en mail fra ".$name.".\n\n".$Besked;
 
   mail($EmailTo, $Tlf, $txt, $headers);
