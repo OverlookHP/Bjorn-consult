@@ -25,7 +25,7 @@ function twentysixteen_child_responsive_menu() {
                    'twentysixteen_child' ));
 
   } add_action('after_setup_theme', 'twentysixteen_child_responsive_menu');
-}
+
 
 
 

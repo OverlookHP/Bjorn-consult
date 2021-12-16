@@ -25,13 +25,17 @@
 
   <div class="grid-container">
     <div class="grid-item">
-        <h2>Overskrift</h2>
+        <h2>Hør Mere Om Bjørn Consult</h2>
         <br>
-        <p>brodtekst</p>
+        <p>Bliv klogere på Bjørn Consult ved at se denne video. 
+          I videoen kommer jeg ind på mine arbejdsmetoder, min vision 
+          & hvordan jeg kan hjælpe din virksomhed!</p>
         <br>
-      <a href="#" class="menuknap">Læs Mere</a></div>
+      </div>
 
-    <div class="grid-itemvideo"><video src='' controls></video></div>
+    <div class="grid-itemvideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/9zfqpFff26g" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+      clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
   </div>
 </div>
 
@@ -42,8 +46,7 @@
 
           <div class="mest_nylige_opslag"><p>Mest nylige opslag</p>
           </div>
-          <div class="se_alle_opslag"><p>Se Alle Opslag ></p>
-          </div>
+          
         </div>
         <br>
         <hr class="new4">
