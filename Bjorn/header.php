@@ -30,17 +30,15 @@
         )
         );
 ?>
-
 <!-- SLET MENU -->
-
 <!-- <li><a href="#Hjem" class="menu-btn">Hjem</a></li>
 <li><a href="#Om-Os" class="menu-btn">Om Os</a></li>
 <li><a href="#Ydelser" class="menu-btn">Ydelser</a></li>
 <li><a href="#Blog" class="menu-btn">Blog</a></li>
 <li><a href="#" class="menuknap">Kontakt</a></li> -->
-
 </ul>
-
+<?php wp_nav_menu( array( 'theme_location' => 'primary-res-navigation',
+                          'menu_class' => 'responsive-navigation' ) ); ?>
 
 </div>
 </nav>
