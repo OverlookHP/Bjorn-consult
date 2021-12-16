@@ -2,7 +2,7 @@
 
 function bjorn_theme_support(){
     // Tilføjer Dynamic title tag support
-    add_theme_support('title-tag'); 
+    add_theme_support('title-tag');
     add_theme_support('custom-logo');
     add_theme_support('post-thumbnails');
     add_theme_support('menus');
@@ -18,7 +18,14 @@ register_nav_menus(
     )
  );
 
+//Responsiv menu;
+function twentysixteen_child_responsive_menu() {
+  register_nav_menu('primary-res-navigation', __
+                   ('Tutorial Responsive Navigation',
+                   'twentysixteen_child' ));
 
+  } add_action('after_setup_theme', 'twentysixteen_child_responsive_menu');
+}
 
 
 
@@ -59,5 +66,7 @@ function bjorn_register_scripts(){
 
     }
     add_action('wp_enqueue_scripts','bjorn_register_scripts');
+
+
 
 ?>

@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <?php 
+
+    <?php
         wp_head();
     ?>
 
@@ -13,15 +13,15 @@
 
 <body>
 <nav class="navbar">
-        <div class="max-width"> 
+        <div class="max-width">
             <div class="logo">
 <a href="http://localhost/wordpress/"><img src="<?php bloginfo('template_directory');?>./assets/img/BjornConsultLogo.png" alt="BjornConsult" width=120wh height=40wh></a></div>
-<ul class="menu">
 
-<?php 
+<ul class="menu">
+<?php
 
     wp_nav_menu(
-    
+
         array(
             'theme_location' => 'top-menu',
             'menu_id' => 'main-menu',
@@ -29,7 +29,7 @@
             'menu_class' => 'main-menu font-moutainsre',
         )
         );
-?> 
+?>
 
 <!-- SLET MENU -->
 
@@ -40,6 +40,8 @@
 <li><a href="#" class="menuknap">Kontakt</a></li> -->
 
 </ul>
+
+
 </div>
 </nav>
 
@@ -52,7 +54,7 @@
         // Hvis der er problemer med den anden metode
         // $custom_logo_id = get_theme_mod('custom_logo');
         // $logo = wp_get_attachment_image_sec($custom_logo_id);
-        
+
 
     }
 
@@ -62,11 +64,9 @@
     //         'menu' => 'primary',
     //         'container' => '',
     //         'theme_location' => 'primary'
-    //         // brug den id og class som der bruges i html her under. SKAL OGSÅ TILFØJES INDE I WP 
+    //         // brug den id og class som der bruges i html her under. SKAL OGSÅ TILFØJES INDE I WP
     //         // 'items_wrap' => '<ul id="" class="">%3$s</ul>'
     //     )
     // );
 
 ?>
-
-
