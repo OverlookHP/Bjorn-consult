@@ -18,31 +18,22 @@ register_nav_menus(
     )
  );
 
-//Responsiv menu;
-function twentysixteen_child_responsive_menu() {
-  register_nav_menu('primary-res-navigation', __
-                   ('Tutorial Responsive Navigation',
-                   'twentysixteen_child' ));
+//Responsiv menu KAN BRUGES TIL FORBEDRING AF HJEMMESIDE;
+// function twentysixteen_child_responsive_menu() {
+//   register_nav_menu('primary-res-navigation', __
+//                    ('Tutorial Responsive Navigation',
+//                    'twentysixteen_child' ));
 
-  } add_action('after_setup_theme', 'twentysixteen_child_responsive_menu');
-
-
-
-
-// function bjorn_menus(){
-
-//     $locations = array(
-//         'primary' => "Desktop Primary Top Menu",
-//         'footer' => "Footer Menu"
-//     );
-//     register_nav_menus($locations);
-// }
-
-// add_action('init','bjorn_menus');
+//   } add_action('after_setup_theme', 'twentysixteen_child_responsive_menu');
 
 
 
-// Mangler links
+
+
+
+
+
+
 function bjorn_register_styles(){
 
     $version = wp_get_theme()->get('Version');
@@ -56,7 +47,7 @@ function bjorn_register_styles(){
     add_action('wp_enqueue_scripts','bjorn_register_styles');
 
 
-// Mangler links
+
 function bjorn_register_scripts(){
 
     wp_enqueue_script('bjorn-jquery', 'LINK TIL JQUERRY', array(), '4.1',true);

@@ -128,15 +128,6 @@
 
                 </div>
 
-
-                <div class="udsagn-section">
-                  <div class="logoerforsidekundeudsagn"><p>"Indsæt quote fra kunde"</p>
-                    </div>
-                    <br>
-                  <div class="logoerforsidekundeudsagnperson"><p>- Tine rasmussen, CEO, Pepsi</p>
-                      </div>
-                </div>
-
 </body>
 <!-- Indsæt HTML her for forsiden -->
 
