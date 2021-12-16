@@ -20,6 +20,10 @@ html{
   --fs-h4: 40px;
   --fs-body: 16px;
 
+  --main-color:#65A765;
+  --light-color:#fff;
+  --text-color:#545454;
+  --hover-color:#467346;
 
 }
   /* Mobile Font size */
@@ -80,15 +84,15 @@ h2{
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
-    color: black;
+    color: var(--text-color);
 }
 
 .navbar .menu li a:hover{
-  color: green;
+  color: var(--main-color);
 }
 
 .menu-btn:hover{
-    color: green;
+    color: var(--main-color);
 }
 
 .menu-btn {
@@ -97,7 +101,7 @@ h2{
 
 .menuknap {
 border-radius: 18px;
-background-color: green;
+background-color: var(--main-color);
 border: none;
 color: white;
 padding: 5px 10px;
@@ -110,10 +114,33 @@ cursor: pointer;
 }
 
 .menuknap:hover{
-    background-color: darkgreen;
+    background-color: var(--hover-color);
 }
 
+/* Responsiv Navigation */
+.responsive-navigation {
+display:none;
+}
+.menu-responsive-menu-container ul > li {
+border-bottom-color: var(--main-color);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+}
 
+.responsive-navigation {
+display:none;
+background-color: var(--light-color);
+padding: 20px;
+}
+
+@media only screen and (max-width:760px) {
+.responsive-navigation{
+display:block;
+}
+.navbar {
+  display:none;
+ }
+}
 
 /* hjem section styling */
 .hjem{
@@ -484,7 +511,7 @@ h2{
     display: block;
     padding:15px;
     color:#fff;
-    background:#65A765;
+    background:var(--main-color);
     border:none;
     border-radius:30px;
     -webkit-transition: all 0.3s;
