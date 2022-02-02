@@ -18,6 +18,11 @@ register_nav_menus(
     )
  );
 
+ function extra_setup() {
+ register_nav_menu ('primary mobile', __( 'Navigation Mobile', 'twentythirteen' ));
+ }
+ add_action( 'after_setup_theme', 'extra_setup' );
+
 //Responsiv menu KAN BRUGES TIL FORBEDRING AF HJEMMESIDE;
 // function twentysixteen_child_responsive_menu() {
 //   register_nav_menu('primary-res-navigation', __

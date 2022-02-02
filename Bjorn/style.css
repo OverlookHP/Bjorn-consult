@@ -59,7 +59,7 @@ h2{
 }
 
 /* navbar styling */
-.navbar{
+/*.navbar{
     position: fixed;
     width: 100%;
     padding: 20px 0;
@@ -67,16 +67,18 @@ h2{
     transition: all 0.3s ease;
     background: white;
       z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
 }
-.navbar .max-width{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 .navbar .menu li{
     list-style: none;
-    display: inline-block;
+}
+.menu{
+  display: flex;
+  align-items: center;
 }
 .navbar .menu li a{
     display: block;
@@ -85,8 +87,32 @@ h2{
     margin-left: 25px;
     transition: color 0.3s ease;
     color: var(--text-color);
+}*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 20px;
+    font-family: 'Poppins', sans-serif;
+      font-size: 16px;
 }
 
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+}
 .navbar .menu li a:hover{
   color: var(--main-color);
 }
@@ -118,29 +144,48 @@ cursor: pointer;
 }
 
 /* Responsiv Navigation */
-/* .responsive-navigation {
-display:none;
+.toggle-button{
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  z-index: 999;
 }
-.menu-responsive-menu-container ul > li {
-border-bottom-color: var(--main-color);
-border-bottom-style: solid;
-border-bottom-width: 1px;
+.toggle-button .bar{
+  height: 3px;
+  width: 100%;
+  background-color: var(--main-color);
+  border-radius: 10px;
 }
 
-.responsive-navigation {
-display:none;
-background-color: var(--light-color);
-padding: 20px;
+@media (max-width: 700px){
+.toggle-button{
+  display: flex;
 }
 
-@media (max-width:760px) {
-.responsive-navigation{
-display:block;
+.navbar-links{
+ display: none;
+width: 100%;
 }
 .navbar {
-  display:none;
- }
-} */
+  flex-direction: column;
+  align-items: flex-start;
+}
+.navbar-links ul {
+  width: 100%;
+  flex-direction: column;
+}
+
+.navbar-links li {
+  text-align: center;
+}
+.navbar-links.active{
+  display: flex;
+}
+}
 
 /* hjem section styling */
 .hjem{

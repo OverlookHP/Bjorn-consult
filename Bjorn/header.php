@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script src="assets/js/main.js" defer></script>
     <?php
         wp_head();
     ?>
@@ -13,10 +13,14 @@
 
 <body>
 <nav class="navbar">
-        <div class="max-width">
             <div class="logo">
 <a href="http://localhost/wordpress/"><img src="<?php bloginfo('template_directory');?>./assets/img/BjornConsultLogo.png" alt="BjornConsult" width=120wh height=40wh></a></div>
-
+<a href="#" class="toggle-button">
+  <span class="bar"></span>
+  <span class="bar"></span>
+  <span class="bar"></span>
+</a>
+<div class="navbar-links">
 <ul class="menu">
 <?php
 
@@ -30,7 +34,6 @@
         )
         );
 ?>
-
 </ul>
         <!-- BRUGES OGSÅ TIL MOBIL MENU -->
 <!-- <?php //wp_nav_menu( array( 'theme_location' => 'primary-res-navigation',
