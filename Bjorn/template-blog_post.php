@@ -1,7 +1,7 @@
-<?php 
+<?php
 /* Template Name: Blog_post */
 get_header();
-?>  
+?>
 
 <section class="blogpostff">
   <!-- <main class="grid-parent"> -->
@@ -31,7 +31,7 @@ get_header();
   <div class="grid-container2">
 
     <div class="grid-item2">
-      <img src="<?php bloginfo('template_directory');?>./assets/img/Stock.jpeg" alt="Avatar" width="300" height="250">
+      <img src="<?php bloginfo('template_directory');?>/assets/img/Stock.jpeg" alt="Avatar" width="300" height="250">
     <div class="container6">
     <h4><b>overskrift</b></h4>
     <p>brødtekst</p>
@@ -63,6 +63,6 @@ get_header();
 </body>
 
 
-<?php 
+<?php
 get_footer();
-?>  
+?>

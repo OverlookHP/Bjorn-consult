@@ -1,7 +1,7 @@
-<?php 
+<?php
 /* Template Name: About */
 get_header();
-?> 
+?>
 
 <section class="head" id="head">
         <div class="max-width">
@@ -13,7 +13,7 @@ get_header();
 
 <body>
 
-  
+
 
 
   <div class="sektiontop">
@@ -28,7 +28,7 @@ Med en bredere forståelse og indsigt i bæredygtighed på tværs af mærkningso
         </div>
 
     <div class="om-item1right">
-      <img src="<?php bloginfo('template_directory');?>./assets/img/Eirik.png" alt="BjornConsult" width="300" height="300">
+      <img src="<?php bloginfo('template_directory');?>/assets/img/Eirik.png" alt="BjornConsult" width="300" height="300">
     </div>
 
 </div>
@@ -50,7 +50,7 @@ Med en bredere forståelse og indsigt i bæredygtighed på tværs af mærkningso
 <div class="zigzag3">
     <p>17 års erfaring som udvikler for revolutionære projekter</p>
     <img src="<?php bloginfo('template_directory');?>./assets/img/omos2.png" alt="BjornConsult" width="100" height="100">
-    
+
 
 </div>
 
@@ -60,10 +60,10 @@ Med en bredere forståelse og indsigt i bæredygtighed på tværs af mærkningso
 </div>
 
 <div class="zigzag5">
-  <p>24 års erfaring som produktudvikler </p> 
+  <p>24 års erfaring som produktudvikler </p>
   <img src="<?php bloginfo('template_directory');?>./assets/img/omos4.png" alt="BjornConsult" width="100" height="100">
-  
-  
+
+
 
 </div>
 </div>
@@ -74,4 +74,4 @@ Med en bredere forståelse og indsigt i bæredygtighed på tværs af mærkningso
 </body>
 
 
-<?php get_footer(); ?> 
+<?php get_footer(); ?>

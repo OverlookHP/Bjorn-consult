@@ -1,7 +1,7 @@
-<?php 
+<?php
 /* Template Name: Ydelser */
 get_header();
-?>  
+?>
 
 <section class="head" id="head">
         <div class="max-width">
@@ -16,9 +16,9 @@ get_header();
 <div class="sektion1">
 
   <div class="ydelser-item1right-mobile">
-    <img src="<?php bloginfo('template_directory');?>./assets/img/vækst.png" alt="BjornConsult" width="300" height="300"></div>
+    <img src="<?php bloginfo('template_directory');?>/assets/img/vækst.png" alt="BjornConsult" width="300" height="300"></div>
 
-    
+
   <div class="ydelser-item1left">
       <h1>Handling For Vækst</h1>
       <br>
@@ -30,7 +30,7 @@ muligheder for økonomisk vækst.</p>
       </div>
 
   <div class="ydelser-item1right">
-    <img src="<?php bloginfo('template_directory');?>./assets/img/vækst.png" alt="BjornConsult" width="300" height="300"></div>
+    <img src="<?php bloginfo('template_directory');?>/assets/img/vækst.png" alt="BjornConsult" width="300" height="300"></div>
 
 
 </div>
@@ -42,7 +42,7 @@ muligheder for økonomisk vækst.</p>
   <div class="ydelser2">
 
       <div class="ydelser-item2left">
-        <img src="<?php bloginfo('template_directory');?>./assets/img/Bjørn.png" alt="BjornConsult" width="300" height="300"></div>
+        <img src="<?php bloginfo('template_directory');?>/assets/img/Bjørn.png" alt="BjornConsult" width="300" height="300"></div>
 
       <div class="ydelser-item2right">
           <h1>Bjørn Metoden</h1>
@@ -64,7 +64,7 @@ bæredygtige projekter i mål.
   <div class="ydelser1">
 
     <div class="ydelser-item1right-mobile">
-      <img src="<?php bloginfo('template_directory');?>./assets/img/bæredygtig.png" alt="BjornConsult" width="300" height="300"></div>
+      <img src="<?php bloginfo('template_directory');?>/assets/img/bæredygtig.png" alt="BjornConsult" width="300" height="300"></div>
 
       <div class="ydelser-item1left">
           <h1>Bæredygtige Valg</h1>
@@ -80,7 +80,7 @@ FN's verdensmål omsat til vækstpotentiale</p>
           </div>
 
       <div class="ydelser-item1right">
-        <img src="<?php bloginfo('template_directory');?>./assets/img/bæredygtig.png" alt="BjornConsult" width="300" height="300"></div>
+        <img src="<?php bloginfo('template_directory');?>/assets/img/bæredygtig.png" alt="BjornConsult" width="300" height="300"></div>
   </div>
 
 </div>
@@ -90,7 +90,7 @@ FN's verdensmål omsat til vækstpotentiale</p>
   <div class="ydelser4">
 
       <div class="ydelser-item4left">
-        <img src="<?php bloginfo('template_directory');?>./assets/img/Aktiv.png" alt="BjornConsult" width="300" height="300"></div>
+        <img src="<?php bloginfo('template_directory');?>/assets/img/Aktiv.png" alt="BjornConsult" width="300" height="300"></div>
 
       <div class="ydelser-item4right">
           <h1>Aktiv Facilitering</h1>
@@ -111,7 +111,7 @@ Kvalitetsredskaber</p>
   <div class="ydelser3">
 
     <div class="ydelser-item3right-mobile">
-      <img src="<?php bloginfo('template_directory');?>./assets/img/Udvikling.png" alt="BjornConsult" width="300" height="300"></div>
+      <img src="<?php bloginfo('template_directory');?>/assets/img/Udvikling.png" alt="BjornConsult" width="300" height="300"></div>
 
       <div class="ydelser-item3left">
           <h1>Udvikling</h1>
@@ -127,7 +127,7 @@ Kvalitetsredskaber</p>
           </div>
 
       <div class="ydelser-item3right">
-        <img src="<?php bloginfo('template_directory');?>./assets/img/Udvikling.png" alt="BjornConsult" width="300" height="300"></div>
+        <img src="<?php bloginfo('template_directory');?>/assets/img/Udvikling.png" alt="BjornConsult" width="300" height="300"></div>
   </div>
 
 </div>

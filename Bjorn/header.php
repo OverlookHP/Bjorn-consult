@@ -14,7 +14,7 @@
 <body>
 <nav class="navbar">
             <div class="logo">
-<a href="http://localhost/wordpress/"><img src="<?php bloginfo('template_directory');?>./assets/img/BjornConsultLogo.png" alt="BjornConsult" width=120wh height=40wh></a></div>
+<a href="http://localhost/wordpress/"><img src="<?php bloginfo('template_directory');?>/assets/img/BjornConsultLogo.png" alt="BjornConsult" width=120wh height=40wh></a></div>
 <a href="#" class="toggle-button">
   <span class="bar"></span>
   <span class="bar"></span>

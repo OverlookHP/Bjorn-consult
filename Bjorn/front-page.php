@@ -27,14 +27,14 @@
     <div class="grid-item">
         <h2>Hør Mere Om Bjørn Consult</h2>
         <br>
-        <p>Bliv klogere på Bjørn Consult ved at se denne video. 
-          I videoen kommer jeg ind på mine arbejdsmetoder, min vision 
+        <p>Bliv klogere på Bjørn Consult ved at se denne video.
+          I videoen kommer jeg ind på mine arbejdsmetoder, min vision
           & hvordan jeg kan hjælpe din virksomhed!</p>
         <br>
       </div>
 
-    <div class="grid-itemvideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/9zfqpFff26g" 
-      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+    <div class="grid-itemvideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/9zfqpFff26g"
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
       clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
   </div>
 </div>
@@ -46,14 +46,14 @@
 
           <div class="mest_nylige_opslag"><p>Mest nylige opslag</p>
           </div>
-          
+
         </div>
         <br>
         <hr class="new4">
         <div class="grid-container2">
 
           <div class="grid-item2">
-            <a href="http://localhost/wordpress/?page_id=41"><img src="<?php bloginfo('template_directory');?>./assets/img/blogpic1.jpg" alt="Avatar" width="300" height="250"></a>
+            <a href="http://localhost/wordpress/?page_id=41"><img src="<?php bloginfo('template_directory');?>/assets/img/blogpic1.jpg" alt="Avatar" width="300" height="250"></a>
           <div class="container6">
           <h2>Omsæt bæredygtighed til vækst</h2>
           <p>Det kræver i dag langt mere end traditionelle værktøjer for at få succes med nye innovative produkter.
@@ -62,7 +62,7 @@
           </div>
 
           <div class="grid-item2">
-            <a href="http://localhost/wordpress/?page_id=44"><img src="<?php bloginfo('template_directory');?>./assets/img/Stock.jpeg" alt="Avatar" width="300" height="250"></a>
+            <a href="http://localhost/wordpress/?page_id=44"><img src="<?php bloginfo('template_directory');?>/assets/img/Stock.jpeg" alt="Avatar" width="300" height="250"></a>
           <div class="container6">
           <h2><b>Verden efter Corona</b></h2>
           <p>Der er ingen tvivl om at Corona pandemien har taget alle på sengekanten.
@@ -71,7 +71,7 @@
           </div>
 
           <div class="grid-item2">
-          <a href="http://localhost/wordpress/?page_id=44"><img src="<?php bloginfo('template_directory');?>./assets/img/Stock.jpeg" alt="Avatar" width="300" height="250"></a>
+          <a href="http://localhost/wordpress/?page_id=44"><img src="<?php bloginfo('template_directory');?>/assets/img/Stock.jpeg" alt="Avatar" width="300" height="250"></a>
           <div class="container6">
           <h2><b>Verden efter Corona</b></h2>
           <p>Der er ingen tvivl om at Corona pandemien har taget alle på sengekanten.
@@ -95,19 +95,19 @@
             <div class="grid-container3">
 
               <div class="grid-item3">
-                <img src="<?php bloginfo('template_directory');?>./assets/img/logoicon.png" alt="Avatar" width="150" height="150">
+                <img src="<?php bloginfo('template_directory');?>/assets/img/logoicon.png" alt="Avatar" width="150" height="150">
               </div>
 
               <div class="grid-item3">
-                <img src="<?php bloginfo('template_directory');?>./assets/img/logoicon.png" alt="Avatar" width="150" height="150">
+                <img src="<?php bloginfo('template_directory');?>/assets/img/logoicon.png" alt="Avatar" width="150" height="150">
               </div>
 
               <div class="grid-item3">
-                <img src="<?php bloginfo('template_directory');?>./assets/img/logoicon.png" alt="Avatar" width="150" height="150">
+                <img src="<?php bloginfo('template_directory');?>/assets/img/logoicon.png" alt="Avatar" width="150" height="150">
               </div>
 
               <div class="grid-item3">
-                <img src="<?php bloginfo('template_directory');?>./assets/img/logoicon.png" alt="Avatar" width="150" height="150">
+                <img src="<?php bloginfo('template_directory');?>/assets/img/logoicon.png" alt="Avatar" width="150" height="150">
               </div>
 
               </div>
@@ -115,15 +115,15 @@
               <div class="grid-container4">
 
                 <div class="grid-item4">
-                  <img src="<?php bloginfo('template_directory');?>./assets/img/logoicon.png" alt="Avatar" width="150" height="150">
+                  <img src="<?php bloginfo('template_directory');?>/assets/img/logoicon.png" alt="Avatar" width="150" height="150">
                 </div>
 
                 <div class="grid-item4">
-                  <img src="<?php bloginfo('template_directory');?>./assets/img/logoicon.png" alt="Avatar" width="150" height="150">
+                  <img src="<?php bloginfo('template_directory');?>/assets/img/logoicon.png" alt="Avatar" width="150" height="150">
                 </div>
 
                 <div class="grid-item4">
-                  <img src="<?php bloginfo('template_directory');?>./assets/img/logoicon.png" alt="Avatar" width="150" height="150">
+                  <img src="<?php bloginfo('template_directory');?>/assets/img/logoicon.png" alt="Avatar" width="150" height="150">
                 </div>
 
                 </div>
